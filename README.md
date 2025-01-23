@@ -1,9 +1,11 @@
 # 🗺️ Reverse-Geocoding 
-A geocodificação reversa é o processo de conversão de coordenadas de latitude e longitude em endereços legíveis, como cidade, estado e país. Esse script automatiza esse processo para um arquivo CSV contendo coordenadas geográficas.  
+A geocodificação reversa é o processo de conversão de coordenadas de latitude e longitude em endereços legíveis, como cidade, estado e país. Há dois scripts que automatizam esse processo.  
+O script ["reverse_geocoding_csv.py"](https://github.com/Pimentel-Andre/Reverse-Geocoding/blob/main/reverse_geocoding_csv.py) é dedicado à leitura de arquivo CSV contendo coordenadas geográficas.  
+O script ["reverse_geocoding_sql.py"](https://github.com/Pimentel-Andre/Reverse-Geocoding/blob/main/reverse_geocoding_sql.py) é dedicado à leitura de uma query do PostgreSQL contendo coordenadas geográficas.  
 
 ## 📋 Requisitos
 Versão utilizada do Python: 3.8.3  
-As bibliotecas Python estão listadas no arquivo requirements.txt (ou instale-as manualmente).  
+As bibliotecas Python estão listadas no arquivo [requirements.txt](https://github.com/Pimentel-Andre/Reverse-Geocoding/blob/main/requirements.txt) (ou instale-as manualmente).  
 Um arquivo CSV contendo as colunas latitude e longitude.  
 
 ## 🛠️ Instalação
